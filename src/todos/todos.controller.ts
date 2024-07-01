@@ -30,7 +30,7 @@ export class TodosController {
   }
 
   @Delete(':id')
-  delete(@Param('id') id: number, @Body() dto: CreateTodoDto) {
+  delete(@Param('id') id: number) {
     return this.todosService.delete(id);
   }
 }
