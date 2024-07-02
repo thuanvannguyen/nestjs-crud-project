@@ -1,8 +1,0 @@
-
-todos
-�   todo.entity.ts
-�   todos.controller.ts
-�   todos.module.ts
-�   todos.service.ts
-+---dtos
-        create-todo.dto.ts
